@@ -3,9 +3,10 @@ import TimerApp from './TimerApp';
 
 function App() {
   return (
-    <div>
+    <>
       <TimerApp />
-    </div>
+      
+    </>
   );
 }
 
