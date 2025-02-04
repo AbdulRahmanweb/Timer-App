@@ -71,9 +71,9 @@ function TimerApp() {
 	<button onClick={addMessage}>Add</button>
 	</div>
 	<div id='buttons'>
-	<button style={{backgroundColor : "green", color : "white", padding : "10px 19px", cursor : "pointer", borderRadius : "5px", flex : "1"}} onClick={handleStart}>Start</button>
-	<button style={{backgroundColor : "red", color : "white", padding : "10px 12px", cursor : "pointer", borderRadius : "5px", flex : "1"}} onClick={handlePause}>Pause</button>
-	<button style={{backgroundColor : "blue", color : "white", padding : "10px 19px", cursor : "pointer", borderRadius : "5px", flex : "1"}} onClick={handleReset}>Reset</button>
+	<button style={{backgroundColor : "green", color : "white", padding : "10px 19px", cursor : "pointer", borderRadius : "5px", border : "none", margin : "5px"}} onClick={handleStart}>Start</button>
+	<button style={{backgroundColor : "red", color : "white", padding : "10px 12px", cursor : "pointer", borderRadius : "5px", border : "none", margin : "5px"}} onClick={handlePause}>Pause</button>
+	<button style={{backgroundColor : "blue", color : "white", padding : "10px 19px", cursor : "pointer", borderRadius : "5px", border : "none", margin : "5px"}} onClick={handleReset}>Reset</button>
 	</div>
 	{/*/Showing message*/}
 	{messages.length > 0 &&
