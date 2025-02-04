@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
   background-color: #282c34;
   color: white;
@@ -6,4 +11,71 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: sans-serif;
+}
+#timer-app {
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+input {
+  width: 93%;
+  padding: 10px;
+  background-color: rgb(73, 73, 73);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+::placeholder {
+  color: white;
+}
+#inputs-container {
+  width: 100%;
+  background-color: #343842;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+#buttons {
+  background-color: #343842;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inputs-container button {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  max-height: 115px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin: 5px;
+}
+li {
+  background-color: #343842;
+  padding: 5px;
+}
+#message-container {
+  /*background-color: #343842;*/
+  padding: 0px;
+  margin: 0px;
+  
 }
